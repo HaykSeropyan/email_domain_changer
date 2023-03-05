@@ -1,8 +1,8 @@
 import re
 import csv
-csv_location = '/home/hyco/Desktop/email_domain_changer/1millionemails.csv'
-domain = r'@yahoo.com$'
-new_domain = r'@haykdomain.com'
+csv_location = '/email_domain_changer/1millionemails.csv'
+domain = r'@_old_domain$'
+new_domain = r'@_new_domain'
 new_file_location = '/home/hyco/Desktop/email_domain_changer/new_emails.csv'
 
 
